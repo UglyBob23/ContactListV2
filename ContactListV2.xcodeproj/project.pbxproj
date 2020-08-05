@@ -13,6 +13,14 @@
 		FB539EFF24D9776D00FBCE95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB539EFE24D9776D00FBCE95 /* Assets.xcassets */; };
 		FB539F0224D9776D00FBCE95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB539F0124D9776D00FBCE95 /* Preview Assets.xcassets */; };
 		FB539F0524D9776D00FBCE95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB539F0324D9776D00FBCE95 /* LaunchScreen.storyboard */; };
+		FB539F0D24D9777D00FBCE95 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB539F0C24D9777D00FBCE95 /* Person.swift */; };
+		FB539F0F24D9778B00FBCE95 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB539F0E24D9778B00FBCE95 /* DataManager.swift */; };
+		FB539F1124D9A31C00FBCE95 /* ContactListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB539F1024D9A31C00FBCE95 /* ContactListRow.swift */; };
+		FB539F1324D9AEA000FBCE95 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB539F1224D9AEA000FBCE95 /* ContactList.swift */; };
+		FB539F1524D9B04400FBCE95 /* ContactListWithSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB539F1424D9B04400FBCE95 /* ContactListWithSections.swift */; };
+		FB539F1724D9B07100FBCE95 /* ContactListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB539F1624D9B07100FBCE95 /* ContactListSection.swift */; };
+		FB93EBD224DA9BA7001EE230 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB93EBD124DA9BA7001EE230 /* Header.swift */; };
+		FB9A6A8B24D9E9F800777C35 /* ContactDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A6A8A24D9E9F800777C35 /* ContactDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		FB539F0124D9776D00FBCE95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB539F0424D9776D00FBCE95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB539F0624D9776D00FBCE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB539F0C24D9777D00FBCE95 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		FB539F0E24D9778B00FBCE95 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		FB539F1024D9A31C00FBCE95 /* ContactListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListRow.swift; sourceTree = "<group>"; };
+		FB539F1224D9AEA000FBCE95 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		FB539F1424D9B04400FBCE95 /* ContactListWithSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListWithSections.swift; sourceTree = "<group>"; };
+		FB539F1624D9B07100FBCE95 /* ContactListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListSection.swift; sourceTree = "<group>"; };
+		FB93EBD124DA9BA7001EE230 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		FB9A6A8A24D9E9F800777C35 /* ContactDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +74,15 @@
 			children = (
 				FB539EF824D9776900FBCE95 /* AppDelegate.swift */,
 				FB539EFA24D9776900FBCE95 /* SceneDelegate.swift */,
+				FB539F0C24D9777D00FBCE95 /* Person.swift */,
 				FB539EFC24D9776900FBCE95 /* ContentView.swift */,
+				FB539F1224D9AEA000FBCE95 /* ContactList.swift */,
+				FB539F1024D9A31C00FBCE95 /* ContactListRow.swift */,
+				FB539F1424D9B04400FBCE95 /* ContactListWithSections.swift */,
+				FB539F1624D9B07100FBCE95 /* ContactListSection.swift */,
+				FB9A6A8A24D9E9F800777C35 /* ContactDetails.swift */,
+				FB93EBD124DA9BA7001EE230 /* Header.swift */,
+				FB539F0E24D9778B00FBCE95 /* DataManager.swift */,
 				FB539EFE24D9776D00FBCE95 /* Assets.xcassets */,
 				FB539F0324D9776D00FBCE95 /* LaunchScreen.storyboard */,
 				FB539F0624D9776D00FBCE95 /* Info.plist */,
@@ -147,8 +171,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB539EF924D9776900FBCE95 /* AppDelegate.swift in Sources */,
+				FB9A6A8B24D9E9F800777C35 /* ContactDetails.swift in Sources */,
+				FB539F0F24D9778B00FBCE95 /* DataManager.swift in Sources */,
 				FB539EFB24D9776900FBCE95 /* SceneDelegate.swift in Sources */,
+				FB539F0D24D9777D00FBCE95 /* Person.swift in Sources */,
+				FB93EBD224DA9BA7001EE230 /* Header.swift in Sources */,
+				FB539F1524D9B04400FBCE95 /* ContactListWithSections.swift in Sources */,
+				FB539F1324D9AEA000FBCE95 /* ContactList.swift in Sources */,
 				FB539EFD24D9776900FBCE95 /* ContentView.swift in Sources */,
+				FB539F1124D9A31C00FBCE95 /* ContactListRow.swift in Sources */,
+				FB539F1724D9B07100FBCE95 /* ContactListSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
